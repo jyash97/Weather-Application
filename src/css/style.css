@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+}
+
+li{
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 17px;
+	cursor: pointer;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 300;
+	color: rgba(230, 126, 34,1.0);
+	transition: all ease .2s;
+}
+
+li:hover{
+	color: rgba(192, 57, 43,1.0);
+	font-weight: 300;
+	transform: scale(1.08);
+}
+
+.nav{
+	padding: 10px;
+	overflow: hidden;
+	background:rgba(241, 196, 15,0.2);
+	border-bottom: .2px solid rgba(192, 57, 43,1.0);
+	transition: all .5s ease;
+}
+
+.nav:hover{
+	background:rgba(241, 196, 15,0.4);
+}
+
+form{
+	width: 30%;
+	margin: 100px auto;
+	margin-bottom: 20px;
+}
+
+input,button{
+	display: block;
+	width: 100%;
+	margin: 10px auto;
+	font-family: 'Raleway',sans-serif;	
+}
+
+input{
+	transition: all ease-in .2s;
+	border: 1px solid rgba(46, 204, 113,0.3);
+	padding: 8px 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: rgba(46, 204, 113,1);
+	font-weight: 300;
+}
+
+input:focus{
+	outline: none;
+	border: 1px solid rgba(39, 174, 96,0.8);
+}
+
+::placeholder{
+	color: rgba(39, 174, 96,.4);
+}
+
+button{
+	background: #3498db;
+	color: #ecf0f1;
+	box-sizing: border-box;
+	border: 1px solid #ecf0f1;
+	padding: 8px;
+	font-size: 14px;
+	transition: all ease .5s;
+}
+
+button:focus{
+	outline: none;
+	background: rgba(46, 204, 113,1.0);
+}
+
+button:hover{
+	background: none;
+	color:  #3498db;
+	border-color: #3498db;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 200;
+	font-size: 28px;
+	color: rgba(192, 57, 43,1.0);
+}
+
+.about{
+	margin: 20px auto;
+	font-family: 'Raleway',sans-serif;
+	font-size: 18px; 
+	font-weight: 200;
+	text-align: center;
+}
